@@ -1,0 +1,513 @@
+{
+  "the-artist-s-way": {
+    "image_url": "https://www.hachetteindia.com/Content/images/books/Large_Cover/9781788164290.jpg",
+    "source_url": "https://hachetteindia.com/Home/bookdetails/Info/9781788164290/the-artist-s-way",
+    "isbn": "9781788164290"
+  },
+  "the-design-of-everyday-things": {
+    "query": "https://openlibrary.org/works/OL1879162W/editions.json?limit=100",
+    "match": {
+      "key": "/books/OL59666023M",
+      "title": "The Design of Everyday Things",
+      "cover_i": 15106734
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15106734-L.jpg"
+  },
+  "fourth-wing": {
+    "query": "https://openlibrary.org/search.json?title=Fourth+Wing&author=Rebecca+Yarros&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Rebecca Yarros"
+      ],
+      "cover_i": 14407898,
+      "key": "/works/OL29226517W",
+      "title": "Fourth Wing"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14407898-L.jpg"
+  },
+  "the-midnight-library": {
+    "query": "https://openlibrary.org/search.json?title=The+Midnight+Library&author=Matt+Haig&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Matt Haig"
+      ],
+      "cover_i": 10313767,
+      "key": "/works/OL20965973W",
+      "title": "The Midnight Library"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/10313767-L.jpg"
+  },
+  "the-bell-jar": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-081e26b7-3529-4faa-bb45-427eefe4ed6c.png"
+  },
+  "feel-good-productivity": {
+    "query": "https://openlibrary.org/search.json?title=Feel-Good+Productivity&author=Ali+Abdaal&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Ali Abdaal"
+      ],
+      "cover_i": 14557462,
+      "key": "/works/OL34026833W",
+      "title": "Feel-Good Productivity"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14557462-L.jpg"
+  },
+  "the-secret-history": {
+    "image_url": "https://cdn.shopify.com/s/files/1/0648/3066/9017/products/penguin-books-ltd-books-default-title-the-secret-history-paperback-tartt-donna-40477511647449.jpg?v=1775124012",
+    "source_url": "https://www.crossword.in/products/the-secret-history-paperback-tartt-donna-1",
+    "title": "The Secret History"
+  },
+  "iron-flame": {
+    "query": "https://openlibrary.org/search.json?title=Iron+Flame&author=Rebecca+Yarros&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Rebecca Yarros"
+      ],
+      "cover_i": 14405746,
+      "key": "/works/OL34028551W",
+      "title": "Iron Flame"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14405746-L.jpg"
+  },
+  "onyx-storm": {
+    "query": "https://openlibrary.org/search.json?title=Onyx+Storm&author=Rebecca+Yarros&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Rebecca Yarros"
+      ],
+      "cover_i": 14826089,
+      "key": "/works/OL41943074W",
+      "title": "Onyx Storm"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14826089-L.jpg"
+  },
+  "alchemised": {
+    "query": "https://openlibrary.org/search.json?title=Alchemised&author=SenLinYu&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "SenLinYu"
+      ],
+      "cover_i": 15137810,
+      "key": "/works/OL42543873W",
+      "title": "Alchemised"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15137810-L.jpg"
+  },
+  "project-hail-mary": {
+    "query": "https://openlibrary.org/search.json?title=Project+Hail+Mary&author=Andy+Weir&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Andy Weir"
+      ],
+      "cover_i": 11200092,
+      "key": "/works/OL21745884W",
+      "title": "Project Hail Mary"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/11200092-L.jpg"
+  },
+  "crime-and-punishment": {
+    "image_url": "https://cdn.penguin.co.in/wp-content/uploads/sites/2/2026/04/9789815162493.jpg",
+    "source_url": "https://www.penguin.sg/book/penguin-select-classics-crime-and-punishment/"
+  },
+  "the-women": {
+    "query": "https://openlibrary.org/search.json?title=The+Women&author=Kristin+Hannah&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "key": "/books/OL53786738M",
+      "title": "The Women",
+      "cover_i": 15167951
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15167951-L.jpg"
+  },
+  "my-friends": {
+    "query": "https://openlibrary.org/search.json?title=My+Friends&author=Fredrik+Backman&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Fredrik Backman"
+      ],
+      "cover_i": 15255151,
+      "key": "/works/OL45274947W",
+      "title": "My Friends"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15255151-L.jpg"
+  },
+  "listen-for-the-lie": {
+    "image_url": "https://covers.openlibrary.org/b/id/14802917-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL50641881M",
+    "edition": {
+      "key": "/books/OL50641881M",
+      "title": "Listen for the Lie",
+      "year": 2024,
+      "publisher": "Transworld Publishers Limited",
+      "format": "",
+      "cover": 14802917,
+      "score": 2024,
+      "isbn": [
+        "9780857505705"
+      ],
+      "file": "/Users/vansitaaddanki/My portfolio 2026 - code/output/library/cover-candidates/listen-for-the-lie-3.jpg"
+    }
+  },
+  "mother-mary-comes-to-me": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-e34bc1e8-61ca-4a4e-b756-fd7e431e1e42.png"
+  },
+  "the-correspondent": {
+    "query": "https://openlibrary.org/search.json?title=The+Correspondent&author=Virginia+Evans&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Virginia Evans"
+      ],
+      "cover_i": 15254278,
+      "key": "/works/OL42414694W",
+      "title": "The Correspondent"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15254278-L.jpg"
+  },
+  "yesteryear": {
+    "query": "https://openlibrary.org/search.json?title=Yesteryear&author=Caro+Claire+Burke&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Caro Claire Burke"
+      ],
+      "cover_i": 15234864,
+      "key": "/works/OL45177696W",
+      "title": "Yesteryear"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15234864-L.jpg"
+  },
+  "circe": {
+    "query": "https://openlibrary.org/search.json?title=Circe&author=Madeline+Miller&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Madeline Miller"
+      ],
+      "cover_i": 8739376,
+      "key": "/works/OL18012166W",
+      "title": "Circe"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/8739376-L.jpg"
+  },
+  "anxious-people": {
+    "query": "https://openlibrary.org/search.json?title=Anxious+People&author=Fredrik+Backman&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Fredrik Backman"
+      ],
+      "cover_i": 10087939,
+      "key": "/works/OL20793817W",
+      "title": "Anxious People"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/10087939-L.jpg"
+  },
+  "heart-the-lover": {
+    "query": "https://openlibrary.org/search.json?title=Heart+the+Lover&author=Lily+King&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Lily King"
+      ],
+      "cover_i": 15143628,
+      "key": "/works/OL43763830W",
+      "title": "Heart the Lover"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15143628-L.jpg"
+  },
+  "a-man-called-ove": {
+    "query": "https://openlibrary.org/works/OL16793865W/editions.json?limit=100",
+    "match": {
+      "key": "/books/OL25616756M",
+      "title": "A Man Called Ove",
+      "cover_i": 12868311
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/12868311-L.jpg"
+  },
+  "days-at-the-morisaki-bookshop": {
+    "query": "https://openlibrary.org/search.json?title=Days+at+the+Morisaki+Bookshop&author=Satoshi+Yagisawa&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Satoshi Yagisawa"
+      ],
+      "cover_i": 13482084,
+      "key": "/works/OL29049148W",
+      "title": "Days at the Morisaki Bookshop"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/13482084-L.jpg"
+  },
+  "i-want-to-die-but-i-want-to-eat-tteokbokki": {
+    "query": "https://openlibrary.org/search.json?title=I+Want+to+Die+but+I+Want+to+Eat+Tteokbokki&author=Baek+Sehee&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "key": "/books/OL44187486M",
+      "title": "I Want to Die but I Want to Eat Tteokbokki",
+      "cover_i": 13136873
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/13136873-L.jpg"
+  },
+  "the-forty-rules-of-love": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-d7b2f01d-4e00-4e9d-b0f3-7161a7a8f1f0.png"
+  },
+  "i-who-have-never-known-men": {
+    "query": "https://openlibrary.org/works/OL102360W/editions.json?limit=100",
+    "match": {
+      "key": "/books/OL57530558M",
+      "title": "I Who Have Never Known Men",
+      "cover_i": 14840892
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14840892-L.jpg"
+  },
+  "remarkably-bright-creatures": {
+    "query": "https://openlibrary.org/search.json?title=Remarkably+Bright+Creatures&author=Shelby+Van+Pelt&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "key": "/books/OL40329349M",
+      "title": "Remarkably Bright Creatures",
+      "cover_i": 14809662
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14809662-L.jpg"
+  },
+  "the-kite-runner": {
+    "query": "https://openlibrary.org/search.json?title=The+Kite+Runner&author=Khaled+Hosseini&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Khaled Hosseini"
+      ],
+      "cover_i": 14846827,
+      "key": "/works/OL5781992W",
+      "title": "The Kite Runner"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14846827-L.jpg"
+  },
+  "a-thousand-splendid-suns": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-67e77944-c4c7-4be9-bd62-1dec954f2f76.png"
+  },
+  "everything-i-know-about-love": {
+    "query": "https://openlibrary.org/search.json?title=Everything+I+Know+About+Love&author=Dolly+Alderton&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Dolly Alderton"
+      ],
+      "cover_i": 9302180,
+      "key": "/works/OL20654212W",
+      "title": "Everything I Know About Love"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/9302180-L.jpg"
+  },
+  "great-big-beautiful-life": {
+    "query": "https://openlibrary.org/search.json?title=Great+Big+Beautiful+Life&author=Emily+Henry&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Emily Henry"
+      ],
+      "cover_i": 14861424,
+      "key": "/works/OL42394587W",
+      "title": "Great Big Beautiful Life"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14861424-L.jpg"
+  },
+  "the-metamorphosis": {
+    "image_url": "https://covers.openlibrary.org/b/id/15259404-L.jpg",
+    "source_url": "https://openlibrary.org/books/OL62602606M",
+    "edition": {
+      "key": "/books/OL62602606M",
+      "title": "Metamorphosis",
+      "year": 2024,
+      "publisher": "Penguin Random House SEA Pte Ltd",
+      "format": "Hardcover",
+      "cover": 15259404,
+      "score": 2124,
+      "isbn": [
+        "9789815162462"
+      ],
+      "file": "/Users/vansitaaddanki/My portfolio 2026 - code/output/library/cover-candidates/the-metamorphosis-0.jpg"
+    }
+  },
+  "steal-like-an-artist": {
+    "query": "https://openlibrary.org/search.json?title=Steal+Like+an+Artist&author=Austin+Kleon&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Austin Kleon"
+      ],
+      "cover_i": 7244512,
+      "key": "/works/OL16489931W",
+      "title": "Steal like an artist"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/7244512-L.jpg"
+  },
+  "keep-going": {
+    "query": "https://openlibrary.org/search.json?title=Keep+Going&author=Austin+Kleon&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Austin Kleon"
+      ],
+      "cover_i": 9165687,
+      "key": "/works/OL20514901W",
+      "title": "Keep Going"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/9165687-L.jpg"
+  },
+  "show-your-work": {
+    "query": "https://openlibrary.org/search.json?title=Show+Your+Work%21&author=Austin+Kleon&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Austin Kleon"
+      ],
+      "cover_i": 7284188,
+      "key": "/works/OL16821630W",
+      "title": "Show Your Work!"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/7284188-L.jpg"
+  },
+  "a-midsummer-night-s-dream": {
+    "image_url": "https://cdn.shopify.com/s/files/1/0648/3066/9017/files/61iQwnrDQAL._SL1000.jpg?v=1748345390",
+    "source_url": "https://www.crossword.in/products/a-midsummer-nights-dream",
+    "title": "A Midsummer Night's Dream"
+  },
+  "the-setting-sun": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-183a0b73-3706-45e5-9fb2-020dc0ba3af9.png"
+  },
+  "1984": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-9bbf17f3-0cb5-4602-a6d0-07d55f30a044.png"
+  },
+  "animal-farm": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-8dc5cbbb-c51d-40df-9d7e-93d2af62f964.png"
+  },
+  "white-nights": {
+    "query": "https://openlibrary.org/search.json?title=White+Nights&author=Fyodor+Dostoevsky&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Фёдор Михайлович Достоевский"
+      ],
+      "cover_i": 14598226,
+      "key": "/works/OL36196411W",
+      "title": "White Nights"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/14598226-L.jpg"
+  },
+  "only-dull-people-are-brilliant-at-breakfast": {
+    "query": "https://openlibrary.org/search.json?title=Only+Dull+People+Are+Brilliant+at+Breakfast&author=Oscar+Wilde&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Oscar Wilde"
+      ],
+      "cover_i": 13051784,
+      "key": "/works/OL21119611W",
+      "title": "Only Dull People Are Brilliant at Breakfast"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/13051784-L.jpg"
+  },
+  "the-mountain-is-you": {
+    "query": "https://openlibrary.org/search.json?title=The+Mountain+Is+You&author=Brianna+Wiest&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Brianna Wiest"
+      ],
+      "cover_i": 13838236,
+      "key": "/works/OL25436364W",
+      "title": "The Mountain Is You"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/13838236-L.jpg"
+  },
+  "psycho-cybernetics": {
+    "image_url": "https://cdn.shopify.com/s/files/1/0648/3066/9017/files/psycho-cybernetics-updated-and-expanded-paperback-maltz-furey-maxwell-matt-bk0498611-42706037113049.jpg?v=1780088927",
+    "source_url": "https://www.crossword.in/products/psycho-cybernetics-updated-and-expanded-paperback-maltz-furey-maxwell-matt",
+    "title": "Psycho-Cybernetics (Updated And Expanded)"
+  },
+  "answer-book": {
+    "query": "https://openlibrary.org/search.json?title=Answer+Book&author=National+Geographic&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "National Geographic"
+      ],
+      "cover_i": 7840930,
+      "key": "/works/OL17569840W",
+      "title": "Answer Book 10001 Fast Facts About Our World"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/7840930-L.jpg"
+  },
+  "bhagavad-gita": {
+    "query": "https://openlibrary.org/search.json?title=Bhagavad+Gita&author=Vyasa&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Vyasa"
+      ],
+      "cover_i": 11157767,
+      "key": "/works/OL264706W",
+      "title": "Bhagavad-Gita"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/11157767-L.jpg"
+  },
+  "srimad-bhagavad-gita-odia": {
+    "status": "No verified cover found in Open Library; explicit unavailable state shown."
+  },
+  "beyond-good-and-evil": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-9b60aa61-5a30-4347-8924-b36657774a6f.png"
+  },
+  "thought-for-the-day": {
+    "image_url": "https://cdn.shopify.com/s/files/1/0648/3066/9017/files/71m3UZKTAcL._SL1500.jpg?v=1762589948",
+    "source_url": "https://www.crossword.in/products/thought-for-the-day",
+    "title": "Thought For The Day"
+  },
+  "how-to-win-friends-and-influence-people": {
+    "image_url": "https://cdn.shopify.com/s/files/1/0648/3066/9017/files/81rsnHmlrbL._SL1500.jpg?v=1751533647",
+    "source_url": "https://www.crossword.in/products/how-to-win-friends-and-influence-people",
+    "title": "How To Win Friends And Influence People"
+  },
+  "meditations": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-3ce9d087-b8a8-4cd9-8dcb-7cc05448f521.png"
+  },
+  "man-s-search-for-meaning": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-fb41bca6-b098-4896-a411-4b20471fd71a.png"
+  },
+  "the-art-of-being-alone": {
+    "query": "https://openlibrary.org/search.json?title=The+Art+of+Being+Alone&author=Renuka+Gavrani&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Renuka Gavrani"
+      ],
+      "cover_i": 15052166,
+      "key": "/works/OL43254128W",
+      "title": "The Art of Being Alone"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/15052166-L.jpg"
+  },
+  "win-your-inner-battles": {
+    "query": "https://openlibrary.org/search.json?title=Win+Your+Inner+Battles&author=Darius+Foroux&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "author_name": [
+        "Darius Foroux"
+      ],
+      "cover_i": 8899736,
+      "key": "/works/OL20244315W",
+      "title": "Win Your Inner Battles"
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/8899736-L.jpg"
+  },
+  "the-diary-of-a-young-girl": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-e29ede0e-0374-46f2-a5fe-e1513259499d.png"
+  },
+  "five-point-someone": {
+    "image_url": "https://cdn.shopify.com/s/files/1/0648/3066/9017/files/71dFdtt1_UL._SL1500.jpg?v=1746537126",
+    "source_url": "https://www.crossword.in/products/five-point-someone-chetan-bhagat",
+    "title": "Five Point Someone"
+  },
+  "the-alchemist": {
+    "query": "https://openlibrary.org/search.json?title=The+Alchemist&author=Paulo+Coelho&limit=3&fields=key%2Ctitle%2Cauthor_name%2Ccover_i",
+    "match": {
+      "key": "/works/OL796465W",
+      "title": "The Alchemist",
+      "cover_i": 7414780
+    },
+    "image_url": "https://covers.openlibrary.org/b/id/7414780-L.jpg"
+  },
+  "the-silent-patient": {
+    "source": "User-supplied cover, 2026-10-04",
+    "attachment": "codex-clipboard-607aeadd-a254-4347-8062-e3fb6f6a3bb1.png"
+  }
+}

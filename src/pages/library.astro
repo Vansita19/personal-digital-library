@@ -1,0 +1,62 @@
+---
+import '../styles/fonts.css';
+import '../styles/library.css';
+import { books } from '../data/library';
+import LibraryBook from '../components/LibraryBook.astro';
+const featured = books;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vansita’s Bookshelf</title>
+    <meta name="description" content="A personal digital library. A place for books, thoughts, and words worth keeping." />
+    <meta name="theme-color" content="#f6f5f0" />
+  </head>
+  <body>
+    <a class="skip-link" href="#collection">Skip to the collection</a>
+    <header class="library-nav">
+      <a class="library-brand" href="/library" aria-label="The reading room home"><span class="book-mark" aria-hidden="true"><i></i><i></i><i></i></span>Vansita’s Bookshelf</a>
+      <nav aria-label="Library navigation"><a href="#collection">The collection <span>{books.length}</span></a><a href="https://vansita.design">Back to portfolio <span>↗</span></a></nav>
+    </header>
+    <main>
+      <section class="library-hero" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="visually-hidden">The reading room</h1>
+        <div class="hero-book-label" aria-live="polite"><p id="featured-title">{featured[0].title}</p><p id="featured-author">{featured[0].author}</p></div>
+        <div class="showcase" tabindex="0" aria-label="Drag to browse books. Use left and right arrow keys, or select a book to open it." aria-roledescription="carousel">
+          <div class="showcase-track">
+            {featured.map((book, index) => <button class="showcase-book" data-feature={index} aria-label={`Explore ${book.title}`} tabindex={index === 0 ? 0 : -1}><span class="book-float"><LibraryBook book={book} eager={index < 4 || index > featured.length - 3}/></span></button>)}
+          </div>
+        </div>
+        <div class="hero-bottom"><span id="featured-count">01 / {featured.length}</span><span class="drag-hint">Drag to explore</span><button id="motion-toggle" aria-pressed="false" aria-label="Pause motion">Ⅱ</button></div>
+      </section>
+      <section class="collection-section" id="collection" aria-labelledby="collection-title">
+        <h2 id="collection-title" class="visually-hidden">The collection</h2>
+        <div class="collection-toolbar">
+          <div class="status-filters" role="group" aria-label="Filter by reading status">{['All books', 'Reading', 'Read', 'To read', 'On shelf'].map((status, index) => <button data-filter={status} aria-pressed={index === 0}>{status}<span data-status-count={status}></span></button>)}</div>
+          <div class="collection-tools"><label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4.5 4.5"/></svg><input type="search" id="book-search" placeholder="Find a book…" aria-label="Search books by title or author" /></label><div class="view-switch" role="group" aria-label="Collection view"><button data-view="grid" aria-label="Grid view" title="Grid view" aria-pressed="true"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="4" width="6" height="6" rx="1"/><rect x="14" y="4" width="6" height="6" rx="1"/><rect x="4" y="14" width="6" height="6" rx="1"/><rect x="14" y="14" width="6" height="6" rx="1"/></svg></button><button data-view="list" aria-label="List view" title="List view" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button><button data-view="shelf" aria-label="Shelf view" title="Shelf view" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 20h18M5 17V5h4v12M12 17V4h3v13M18 6l3 11"/></svg></button></div></div>
+        </div>
+        <div class="collection-meta"><p><span id="result-count" aria-live="polite">{books.length} books</span></p><label>Explore <select id="category-filter" aria-label="Filter by category"><option value="all">All subjects</option>{[...new Set(books.map(book=>book.category))].map(category => <option>{category}</option>)}</select></label></div>
+        <div class="book-grid" id="book-grid">
+          {books.map((book) => <article class="book-card" data-book={book.id} data-category={book.category} data-status={book.status} data-search={`${book.title} ${book.author}`.toLowerCase()}>
+            <button class="book-open" data-open={book.id} aria-label={`Open ${book.title} by ${book.author}`}><span class="book-stage"><LibraryBook book={book}/><span class="book-shadow"></span></span><span class="book-info"><span class="book-title">{book.title}</span><span class="book-author">{book.author}</span></span></button>
+          </article>)}
+        </div>
+        <div id="empty-state" hidden><h3>No books on this shelf.</h3><p>Try a different title, author, or filter.</p><button id="reset-filters">Show all books ↗</button></div>
+      </section>
+    </main>
+    <footer class="library-footer"><a href="/" class="library-brand"><span class="book-mark" aria-hidden="true"><i></i><i></i><i></i></span>Vansita’s Bookshelf</a><a href="#hero-title">Back to the top ↑</a></footer>
+    <dialog id="book-dialog" aria-labelledby="detail-title">
+      <button class="dialog-close round-button" aria-label="Close book details">×</button>
+      <div class="detail-layout">
+        <div class="detail-display"><div id="detail-book" role="img" aria-label="Rotating book cover"></div></div>
+        <div class="detail-content"><p class="eyebrow" id="detail-category"></p><h2 id="detail-title"></h2><p id="detail-author"></p><p id="detail-rating"></p><p id="detail-description"></p>
+          <label class="reading-status"><span>Reading status</span><select id="detail-status"><option>On shelf</option><option>Reading</option><option>Read</option><option>To read</option></select></label>
+        <section class="detail-note"><label for="book-notes">What stayed with you?</label><textarea id="book-notes" placeholder="A thought worth keeping…" rows="4"></textarea></section>
+        </div>
+      </div>
+    </dialog>
+    <script id="library-data" type="application/json" set:html={JSON.stringify(books).replace(/</g, '\\u003c')} />
+    <script src="../scripts/library.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+---
+import type { Book } from '../data/library';
+const { book, eager = false } = Astro.props as { book: Book; eager?: boolean };
+const thin = ['the-metamorphosis', 'steal-like-an-artist', 'keep-going', 'show-your-work', 'a-midsummer-night-s-dream', 'animal-farm', 'white-nights'].includes(book.id);
+const thickness = thin ? 16 : book.id === 'alchemised' ? 54 : book.id === 'answer-book' ? 48 : book.id === 'days-at-the-morisaki-bookshop' ? 28 : 32;
+---
+<span class={`book-object ${thin ? 'book-thin' : ''} motif-${book.motif} ${book.title.length > 42 ? 'title-long' : book.title.length > 27 ? 'title-medium' : ''}`} style={`--cover:${book.color};--ink:${book.ink};--thickness:${thickness}px;--depth-ratio:${thickness / 160}`} aria-hidden="true">
+  <span class="book-face book-front">
+    {book.cover ? <img class="cover-image" src={book.cover} alt="" loading={eager ? 'eager' : 'lazy'} decoding="async" draggable="false" /> : <span class="cover-unavailable"><span>{book.title}</span><small>Edition cover unavailable</small></span>}
+  </span>
+  <span class="book-face book-back">{book.backCover ? <img class="back-cover-image" src={book.backCover} alt="" loading="lazy" draggable="false" /> : <><span>{book.title}</span><span>{book.author}</span></>}</span>
+  <span class="book-spine"><span>{book.title}</span><small>{book.author}</small></span>
+  <span class="book-pages"></span><span class="book-top"></span><span class="book-bottom"></span>
+</span>
